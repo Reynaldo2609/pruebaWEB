@@ -1,0 +1,36 @@
+
+   <html>
+    <head>
+         <title> Bro </title>
+         <!-- The core Firebase JS SDK is always required and must be listed first -->
+         
+         <link rel="stylesheet" type="text/css" href="./sesion.css">
+         <script src="https://www.gstatic.com/firebasejs/7.9.1/firebase-app.js"></script>
+         <script src="https://www.gstatic.com/firebasejs/7.9.1/firebase-auth.js"></script>
+
+         <script src="app.js"> </script>
+
+         
+          <div id="formContainer">
+              <div id="header"> </div>
+          <center>
+          <input type="email" placeholder="correo electronico" id="email"/>
+          <input type="password" placeholder="clave" id="password"/>
+
+          <button onclick="signIn()" id="signIn"> INICIAR SESION </button>
+          <button onclick="signOut()" id="signOut"> CERRAR SESION </button>
+          </center>
+          
+          </div>
+          <form id="ingresar">
+              <div class="espace"></div>
+              <img class="banner" src="./img.png">
+              <center><a href="./crear.html" class="cuenta">aun no tengo cuenta</a></center>
+
+            <!--button onclick="signUp()" id="signUp"> REGISTRARSE </button--->
+          </form>
+
+
+    </body>
+</body>
+</html>

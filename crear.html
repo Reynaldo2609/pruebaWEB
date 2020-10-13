@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registrarse</title>
+    <link rel="stylesheet" type="text/css" href="./sesion.css">
+    <script src="https://www.gstatic.com/firebasejs/7.9.1/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/7.9.1/firebase-auth.js"></script>
+
+    <script src="app.js"> </script>
+</head>
+<body>
+
+    <div id="formContainer">
+        <div id="header"> </div>
+    <center>
+    <input type="email" placeholder="correo electronico" />
+    <input type="text" placeholder="clave" />
+
+    <button onclick="signIn()" id="signIn"> INICIAR SESION </button>
+    <button onclick="signOut()" id="signOut"> CERRAR SESION </button>
+    </center>
+    
+    </div>
+    <form id="ingresar">
+        <div class="espace"></div>
+        <p class="c">como tener una cuenta para poder accerder a nuestras conferencias</p>
+        <p class="c2">virtualmente suscribete.</p>
+        <img class="system" src="./system.png">
+       
+            <center><label>ingrese sus datos</label></center>
+
+        <center><input type="text" placeholder="ingresar nombre"></center><br>
+
+        <center><input type="email" placeholder="ingresar correo" id="email"></center>
+        <br><center><input type="password" id="password" placeholder="ingrese su contraseña"></center><br>
+        <center><input type="text" placeholder="número de celular"></center>
+
+
+            
+      <br>
+        <center><button onclick="signUp()" id="signUp" class="btn"> REGISTRARSE </button></center>
+
+        
+      
+
+    </form>
+
+    
+</body>
+</html>

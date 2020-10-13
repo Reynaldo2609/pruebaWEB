@@ -1,0 +1,78 @@
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: white;
+}
+#formContainer{
+    background-color: rgb(59, 128, 218);
+    width: 100%;
+    height: 33px;
+    padding-top:12px;
+    text-align: center;
+    box-shadow: 2px 2px 2px rgba(128, 128, 128, 0.479);
+}
+
+button{
+    background-color: rgb(66, 36, 196);
+    border-radius: 5px;
+    color:white;
+    border:none;
+    padding: 6px;
+}
+button:hover{
+    cursor: pointer;
+    color:rgb(66, 36, 196);;
+    background-color:  white;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.274);
+    transition: 1s;
+}
+.cuenta{
+    text-align: center;
+    background-color: #36a420;
+    color:white;
+    text-decoration: none;
+    border-radius: 5px;
+    padding:13px;
+    box-shadow: 2px 2px 2px rgba(90, 90, 90, 0.644);
+    float: left;
+    margin-left: 270px;
+    margin-top: 230px;
+}
+.espace{
+    width: 100%;
+    height: 64px;
+}
+.banner{
+    float: left;
+}
+.c{
+    float: right;
+    margin-right: 333px;
+}
+.c2{
+    float: right;
+    margin-right: 553px;
+}
+
+.system{
+    width: 830px;
+    float: left;
+}
+.create{
+    margin-right: 123px;
+    float: left;
+}
+.container{
+    background-color: rgb(236, 236, 236);
+    width: 368px;
+    height: 323px;
+    float: right;
+    border-radius: 14px;
+    margin-right: 123px;
+    box-shadow: 2px 2px 2px gray;
+
+}
